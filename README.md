@@ -24,7 +24,7 @@ sudo apt-get install file
 sudo apt update && sudo apt upgrade
 </pre></code>
 
-~任意のディレクトリに移動して~
+任意のディレクトリに移動して
 
 <pre><code>
 wget "https://github.com/crum7/stella/raw/main/stella"
@@ -58,7 +58,7 @@ sudo apt-get install file
 <pre><code>
 sudo apt-get upgrade
 </code></pre>
-~任意のディレクトリに移動して~
+任意のディレクトリに移動して
  
 flossのインストール
 <pre><code>

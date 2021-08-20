@@ -9,7 +9,7 @@ Windowsマルウェアの実行ファイル(.exe)を表層解析します。<br>
 <img src="https://user-images.githubusercontent.com/72499679/130217115-7c5a4e03-a8c5-48e4-a184-a8ad12d35682.png" width=500>
  
  
-stellaのインストール方法(debian系
+stellaのインストール方法(debian系・Ubuntu系
 ターミナルで
 <pre><code>
 sudo apt-get install binutils
@@ -44,7 +44,7 @@ stringsコマンドは難読化されたファイルので読み取りはでき�
 <a href="https://github.com/fireeye/flare-floss">floss</a>
 これは、flossとstellaを同じディレクトリに置くことが必要です。
  
-stella_flossver(stellaf)のインストール方法(debian系
+stella_flossver(stellaf)のインストール方法(debian系・Ubuntu系
 
 <pre><code>
 sudo apt-get install binutils

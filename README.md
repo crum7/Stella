@@ -27,7 +27,7 @@ sudo apt update && sudo apt upgrade
 任意のディレクトリに移動して
 
 <pre><code>
-wget "https://github.com/crum7/Stella/raw/main/stella1.0"
+wget "https://github.com/crum7/Stella/raw/main/stella01"
 </pre></code>
 <pre><code>
 chmod 777 stella
@@ -82,5 +82,7 @@ chmod 777 stellaf
 $ ./stella 〇〇.exe<br>
 stellaに比べると少し実行速度が遅いです。<br>
 
-
+---------------------------更新
+./stella01と./stellaf01では、httpに関係するstringsを表示するようにしました。
+ランサムウェアの可能性を判断するようにしました。
 

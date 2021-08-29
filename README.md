@@ -27,7 +27,7 @@ sudo apt update && sudo apt upgrade
 任意のディレクトリに移動して
 
 <pre><code>
-wget "https://github.com/crum7/stella/raw/main/stella"
+wget "https://github.com/crum7/Stella/raw/main/stella1.0"
 </pre></code>
 <pre><code>
 chmod 777 stella
@@ -68,7 +68,7 @@ wget "https://github.com/fireeye/flare-floss/releases/download/v1.7.0/floss-v1.7
 unzip floss-v1.7.0-linux.zip
 </code></pre>
 <pre><code>
-wget "https://github.com/crum7/stella/raw/main/stellaf"
+wget "https://github.com/crum7/stella/raw/main/stellaf01"
 </code></pre>
 <pre><code>
 chmod 777 floss

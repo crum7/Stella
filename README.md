@@ -12,6 +12,13 @@ Windowsマルウェアの実行ファイル(.exe)を表層解析します。<br>
  <br>
 stellaのインストール方法(debian系・Ubuntu系
 <br>
+<code>
+ chmod 777 install.sh
+</code>
+ <br>
+<code>
+./install.sh
+</code>
 <br>
 
 使用方法<br>
@@ -24,17 +31,8 @@ $ ./stella 〇〇.exe<br>
 stringsコマンドは難読化されたファイルので読み取りはできないので、Flossツールを用いたものも用意しました。<br>
 <a href="https://github.com/fireeye/flare-floss">floss</a>
 これは、flossとstellaを同じディレクトリに置くことが必要です。
- 
-stella_flossver(stellaf)のインストール方法(debian系・Ubuntu系
-install.shをダウンロード
+<br>
 
-<code>
- chmod 777 install.sh
-</code>
- 
-<code>
-./install.sh
-</code>
 <br>
 <br>
 使用方法<br>

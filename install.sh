@@ -1,4 +1,3 @@
-
 sudo apt-get install binutils
 sudo apt-get install xxd
 sudo apt-get install file
@@ -14,3 +13,5 @@ wget "https://github.com/crum7/stella/raw/main/stellaf01"
 mv stellaf01 stellaf
 chmod 777 floss
 chmod 777 stellaf
+rm floss-v1.7.0-linux.zip
+rm install.sh

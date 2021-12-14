@@ -28,9 +28,12 @@ sha1sum<br>
  
  <br>
  <br>
-stellaのインストール方法(debian系・Ubuntu系<br>
+-----stellaのインストール方法-----(debian系・Ubuntu系<br>
 stella1.0(一覧表示)とstella2.0（対話形式)を選択してインストールしてください。<br>
-初めて使用する方は、stella2.0が使いやすいと思います。<br>
+初めて使用する方は、stella2.0が使いやすいと思います。<br><br>
+-----stella2.0-----<br>
+https://github.com/crum7/Stella/blob/main/install.sh<br>
+をダウンロード
 <br>
 <code>
  chmod 777 install.sh
@@ -40,16 +43,18 @@ stella1.0(一覧表示)とstella2.0（対話形式)を選択してインスト�
 ./install.sh
 </code>
 <br>
+インストール完了<br>
 
 -----使用方法-----<br>
-stella1.0の場合<br>
+stellaの場合<br>
 $ ./stella 〇〇.exe<br>
 ずらっと表示されます。<br>
 <br>
 <br>
 stella2.0の場合<br>
-$ ./stella 〇〇.exe<br>
+$ stella 〇〇.exe<br>
 対話形式で始まるので、最初はhを入力してコマンドの一覧を確認してください。<br>
+/usr/local/binに置いているので、ディレクトリなどを気にせず利用できます。<br>
 <br>
 
  
@@ -63,7 +68,10 @@ $ ./stella 〇〇.exe<br>
 <img src="https://user-images.githubusercontent.com/72499679/130217115-7c5a4e03-a8c5-48e4-a184-a8ad12d35682.png" width=500>
 
 ---------------------------stella2.0更新<br>
-対話形式になったことで、自分の見たい情報のみを表示させることができます。
-1つのマルウェアの表層解析をしながら、別のマルウェアの表層解析を表示することができます。
+./stellaと./stellaf01では、httpに関係するstringsを表示するようにしました。<br>
+ランサムウェアの可能性を判断するようにしました。<br>
+flossを組み込んだため、柔軟に表層解析に取り組むことができます。<br>
+対話形式になったことで、自分の見たい情報のみを表示させることができます。<br>
+1つのマルウェアの表層解析をしながら、別のマルウェアの表層解析を表示することができます。<br>
 ![image](https://user-images.githubusercontent.com/72499679/145953437-6f0074ce-d29b-4573-a649-7b6f6130ed47.png)
 

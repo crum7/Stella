@@ -5,7 +5,7 @@ sudo apt-get install file -y
 sudo apt-get install figlet -y
 cd /usr/local/bin
 
-wget "https://github.com/crum7/Stella/raw/main/stella2.0"
+wget "https://github.com/crum7/Stella/raw/main/stella_2.0"
 mv stella2.0 stella
 chmod 777 stella
 

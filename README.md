@@ -30,6 +30,7 @@ sha1sum<br>
 -----stella2.0のインストール-----<br>
 https://github.com/crum7/Stella/blob/main/install.sh<br>
 をダウンロード
+書いてあることを一行ずつ端末にコピペしてもいける。
 <br>
 <code>
  chmod 777 install.sh

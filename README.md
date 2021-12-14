@@ -22,7 +22,6 @@ sha1sum<br>
 <br>
 
 難読化されたファイルので読み取りはできないので、Flossツールを用いたものも用意しました。<br>
-floss↓<br>
 <a href="https://github.com/fireeye/flare-floss">floss</a>
 これは、flossとstellaを同じディレクトリに置くことが必要です。
 

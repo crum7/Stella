@@ -2,33 +2,33 @@
 # stella
  
 ステラは、CUIのマルウェア表層解析ツールです。<br>
-![image](https://user-images.githubusercontent.com/72499679/145947876-890c6290-eb18-4b5c-b96d-5825a5f24177.png)
+![image](https://user-images.githubusercontent.com/72499679/145947876-890c6290-eb18-4b5c-b96d-5825a5f24177.png)<br>
 -----特徴-----
 Windowsマルウェアの実行ファイル(.exe)を表層解析をします。<br>
-各マルウェアのハッシュ値
-md5sum
-sha256sum
-sha1sum
-を算出し、表示します。
+各マルウェアのハッシュ値<br>
+md5sum<br>
+sha256sum<br>
+sha1sum<br>
+を算出し、表示します。<br>
 また、このマルウェアのハッシュ値を使用して、有効なVirusTotal・HybridAnalysisへのリンクを表示します。<br>
-![image](https://user-images.githubusercontent.com/72499679/145953125-99fed885-bfa9-44be-b8ea-070dfe3e7ba2.png)
+![image](https://user-images.githubusercontent.com/72499679/145953125-99fed885-bfa9-44be-b8ea-070dfe3e7ba2.png)<br>
 
 
 そして、マルウェアのバイナリの中の可読部を各メソッドごとに分類、どんな挙動をするのかを特定します。<br>
-![image](https://user-images.githubusercontent.com/72499679/145953193-fd97f016-2527-42b9-969f-9ec8aac9315c.png)
+![image](https://user-images.githubusercontent.com/72499679/145953193-fd97f016-2527-42b9-969f-9ec8aac9315c.png)<br>
 
 特に深刻な影響・マルウェアの特徴が現れている部分を示す文字列はblacklistとしてまとめ、表示します。<br>
-![image](https://user-images.githubusercontent.com/72499679/145953303-2db367fb-1033-4e3a-8461-7aaa2b966869.png)
-
+![image](https://user-images.githubusercontent.com/72499679/145953303-2db367fb-1033-4e3a-8461-7aaa2b966869.png)<br>
+<br>
 
 
 
  
  <br>
  <br>
-stellaのインストール方法(debian系・Ubuntu系
-stella1.0(一覧表示)とstella2.0（対話形式)を選択してインストールしてください。
-初めて使用する方は、stella2.0が使いやすいと思います。
+stellaのインストール方法(debian系・Ubuntu系<br>
+stella1.0(一覧表示)とstella2.0（対話形式)を選択してインストールしてください。<br>
+初めて使用する方は、stella2.0が使いやすいと思います。<br>
 <br>
 <code>
  chmod 777 install.sh
@@ -50,7 +50,8 @@ $ ./stella 〇〇.exe<br>
 <a href="https://github.com/fireeye/flare-floss">floss</a>
 これは、flossとstellaを同じディレクトリに置くことが必要です。
 <br>
-
+<br>
+<br>
 ---------------------------stella更新<br>
 ./stellaと./stellaf01では、httpに関係するstringsを表示するようにしました。<br>
 ランサムウェアの可能性を判断するようにしました。<br>

@@ -22,17 +22,12 @@ sha1sum<br>
 ![image](https://user-images.githubusercontent.com/72499679/145953303-2db367fb-1033-4e3a-8461-7aaa2b966869.png)<br>
 <br>
 
-難読化されたファイルので読み取りはできないので、Flossツールを用いたものも用意しました。<br>
+難読化されたマルウェアの読み取りも可能するためにstella_2.0ではflossも内包しました。<br>
 <a href="https://github.com/fireeye/flare-floss">floss</a>
-これは、flossとstellaを同じディレクトリに置くことが必要です。
+ <br>
+ <br>
 
- 
- <br>
- <br>
------stellaのインストール方法-----(debian系・Ubuntu系<br>
-stella1.0(一覧表示)とstella2.0（対話形式)を選択してインストールしてください。<br>
-初めて使用する方は、stella2.0が使いやすいと思います。<br><br>
------stella2.0-----<br>
+-----stella2.0のインストール-----<br>
 https://github.com/crum7/Stella/blob/main/install.sh<br>
 をダウンロード
 <br>
@@ -52,14 +47,13 @@ $ ./stella 〇〇.exe<br>
 ずらっと表示されます。<br>
 <br>
 <br>
+<br>
 stella2.0の場合<br>
 $ stella 〇〇.exe<br>
 対話形式で始まるので、最初はhを入力してコマンドの一覧を確認してください。<br>
 /usr/local/binに置いているので、ディレクトリなどを気にせず利用できます。<br>
-<br>
-
- 
-
+rコマンドであまり出てこない場合は、fコマンドを使用してください。
+コマンドを打ち間違えた場合は、hコマンドで元に戻れます。
 <br>
 <br>
 <br>

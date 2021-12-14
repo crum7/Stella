@@ -2,7 +2,8 @@
 # stella
  
 ステラは、CUIのマルウェア表層解析ツールです。<br>
-![image](https://user-images.githubusercontent.com/72499679/145947876-890c6290-eb18-4b5c-b96d-5825a5f24177.png)<br>
+![image](https://user-images.githubusercontent.com/72499679/145970551-f61db31d-63f3-4b66-817c-0851755b48f0.png)
+<br>
 -----特徴-----<br>
 Windowsマルウェアの実行ファイル(.exe)を表層解析をします。<br>
 各マルウェアのハッシュ値<br>

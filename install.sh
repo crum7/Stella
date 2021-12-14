@@ -1,7 +1,9 @@
-sudo apt-get install binutils
-sudo apt-get install xxd
-sudo apt-get install file
-sudo apt update
+sudo apt update　-y
+sudo apt-get install binutils -y
+sudo apt-get install xxd -y
+sudo apt-get install file -y
+sudo apt-get install boxes -y
+sudo apt-get install figlet -y
 
 wget "https://github.com/crum7/Stella/raw/main/stella01"
 mv stella01 stella

@@ -3,7 +3,7 @@
  
 ステラは、CUIのマルウェア表層解析ツールです。<br>
 ![image](https://user-images.githubusercontent.com/72499679/145947876-890c6290-eb18-4b5c-b96d-5825a5f24177.png)<br>
------特徴-----
+-----特徴-----<br>
 Windowsマルウェアの実行ファイル(.exe)を表層解析をします。<br>
 各マルウェアのハッシュ値<br>
 md5sum<br>
@@ -21,7 +21,10 @@ sha1sum<br>
 ![image](https://user-images.githubusercontent.com/72499679/145953303-2db367fb-1033-4e3a-8461-7aaa2b966869.png)<br>
 <br>
 
-
+難読化されたファイルので読み取りはできないので、Flossツールを用いたものも用意しました。<br>
+floss↓<br>
+<a href="https://github.com/fireeye/flare-floss">floss</a>
+これは、flossとstellaを同じディレクトリに置くことが必要です。
 
  
  <br>
@@ -39,16 +42,19 @@ stella1.0(一覧表示)とstella2.0（対話形式)を選択してインスト�
 </code>
 <br>
 
-使用方法<br>
+-----使用方法-----<br>
+stella1.0の場合<br>
 $ ./stella 〇〇.exe<br>
 ずらっと表示されます。<br>
 <br>
 <br>
+stella2.0の場合<br>
+$ ./stella 〇〇.exe<br>
+対話形式で始まるので、最初はhを入力してコマンドの一覧を確認してください。<br>
+<br>
 
  
-難読化されたファイルので読み取りはできないので、Flossツールを用いたものも用意しました。<br>
-<a href="https://github.com/fireeye/flare-floss">floss</a>
-これは、flossとstellaを同じディレクトリに置くことが必要です。
+
 <br>
 <br>
 <br>

@@ -1,6 +1,6 @@
  
 # stella
-![表層解析をもっと簡単に](https://user-images.githubusercontent.com/72499679/146771229-c33acc0f-93d6-4219-9f9d-d2c676572fb8.png)
+
 
 ステラは、CUIのマルウェア表層解析ツールです。<br>
 ![image](https://user-images.githubusercontent.com/72499679/145970551-f61db31d-63f3-4b66-817c-0851755b48f0.png)

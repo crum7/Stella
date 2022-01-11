@@ -29,10 +29,12 @@ sha1sum<br>
  <br>
 
 -----stella2.0のインストール-----<br>
-https://github.com/crum7/Stella/blob/main/install.sh<br>
-をダウンロード
-実行
-<br>
+<code>
+ sudo su -
+</code>
+<code>
+ wget https://github.com/crum7/Stella/raw/main/install.sh
+ </code>
 <code>
  chmod 777 install.sh
 </code>

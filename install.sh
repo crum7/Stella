@@ -15,4 +15,4 @@ unzip floss-v1.7.0-linux.zip
 
 chmod 777 floss
 rm floss-v1.7.0-linux.zip
-rm install.sh
+

@@ -38,29 +38,27 @@ sha1sum<br>
 <code>
  chmod 777 install.sh
 </code><br>
- <br>
 <code>
 ./install.sh
 </code><br>
-<br>
 インストール完了<br>
 
 -----使用方法-----<br>
 stellaの場合<br>
 $ stella 〇〇.exe<br>
-
-コマンド      使い方
-h      ヘルプ
-i      基本的な情報
-q      終了
-r      全体の調査結果
-b      ブラックリスト
-c      clear
-ls     lsコマンド
-n      他のマルウェアの解析
-f      flossツールを使った全体の調査結果
-z      flossツールを使ったブラックリスト
-
+<br>
+コマンド      使い方<br>
+h      ヘルプ<br>
+i      基本的な情報<br>
+q      終了<br>
+r      全体の調査結果<br>
+b      ブラックリスト<br>
+c      clear<br>
+ls     lsコマンド<br>
+n      他のマルウェアの解析<br>
+f      flossツールを使った全体の調査結果<br>
+z      flossツールを使ったブラックリスト<br>
+<br>
 対話形式で始まるので、最初はhを入力してコマンドの一覧を確認してください。<br>
 /usr/local/binに置いているので、ディレクトリなどを気にせず利用できます。<br>
 rコマンドであまり出てこない場合は、fコマンドを使用してください。

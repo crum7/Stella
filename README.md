@@ -30,7 +30,7 @@ sha1sum<br>
 
 -----stella2.0のインストール-----<br>
 https://github.com/crum7/Stella/blob/main/install.sh<br>
-を右クリックでダウンロード
+をダウンロード
 実行
 <br>
 <code>

@@ -2,7 +2,7 @@
 # stella
 
 
-ステラは、Linuxに対応したCUIのマルウェア表層解析ツールです。<br>
+ステラは、Linux専用のCUIのマルウェア表層解析ツールです。<br>
 ![image](https://user-images.githubusercontent.com/72499679/158712420-555d03f4-9b07-4c98-911c-f1420bf39503.png)
 
 <br>

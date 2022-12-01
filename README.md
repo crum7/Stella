@@ -37,7 +37,10 @@ sha1sum<br>
  sudo su -
 </code><br>
 <code>
- wget https://github.com/crum7/Stella/raw/main/install.sh
+git clone https://github.com/crum7/Stella.git
+ </code><br>
+ <code>
+ cd Stella
  </code><br>
 <code>
  chmod 777 install.sh
